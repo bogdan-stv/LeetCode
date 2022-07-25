@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <string.h>
 
 /*
@@ -61,10 +60,4 @@ int roman_to_int2(char* roman_number)
             result += num;
     }
     return result;
-}
-
-
-int main()
-{
-    printf("%d\n", roman_to_int("MMMDIV"));
 }
