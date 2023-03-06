@@ -1,0 +1,16 @@
+		OSI Model
+OSI Model - Open System Interconnect 
+		  - este o stiva de protocoale de comunicație foarte des folosit pentru a realiza o retea de calculatoare
+		  - explică toate funcțiile individuale care sunt necesare pentru traseul informatiei dintr-un capat
+		    in altul al retelei
+			
+	Nivelul fizic se ocupa de transmiterea bitilor printr-un canal de comunicatie.
+The actual format of the data on the “wire” can vary with each medium. In the case of Ethernet, bits are transferred 
+in the form of electric pulses. In the case of Wifi, bits are transferred in the form of radio waves. 
+In the case of Fiber, bits are transferred in the form of pulses of light.
+	Pe scurt, nivelul legătură de date este responsabil cu transmiterea corectă şi sigură a datelor printr-o
+legătură fizică existentă, între două puncte conectate direct prin această legătură fizică, preocupându-se
+în acelaşi timp şi de controlul fluxului fizic (flow control), dar şi de detecţia şi anunţarea erorilor.
+Nivelul Rețea
+	Nivelul Reteal rol: determinarea căii optime pentru realizarea transferului de informații într-o rețea 
+constituită din mai multe segmente, prin fragmentarea și reasamblarea informației
